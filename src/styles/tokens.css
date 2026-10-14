@@ -1,0 +1,106 @@
+/**
+ * Design System Design Tokens.
+ * Strict token definitions with zero hardcoded values in components.
+ */
+
+:root {
+  /* Default Void / Dark Mode Canvas Tokens */
+  --color-void: #09090B;
+  --color-surface: #131318;
+  --color-surface-hover: #1c1b22;
+  --color-hairline: #26262E;
+  --color-hairline-bright: #383844;
+  --color-text: #F4EFE6;
+  --color-muted: #A7A29A;
+  --color-lime: #C6FF3D;
+  --color-lime-hover: #d2ff5e;
+  --color-pink: #FF3D9A;
+  --color-pink-hover: #ff5ea8;
+
+  /* Rescoped semantic aliases */
+  --bg-current: var(--color-void);
+  --bg-card: var(--color-surface);
+  --border-current: var(--color-hairline);
+  --text-current: var(--color-text);
+  --muted-current: var(--color-muted);
+  --accent-current: var(--color-lime);
+  --highlight-current: var(--color-pink);
+
+  /* Geometry & Radii */
+  --radius-card: 12px;
+  --radius-image: 16px;
+  --radius-pill: 9999px;
+  --radius-input: 8px;
+  --radius-tag: 4px;
+
+  /* Spacing (8px grid) */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-10: 40px;
+  --space-12: 48px;
+  --space-16: 64px;
+  --space-20: 80px;
+  --space-24: 96px;
+  --space-32: 128px;
+
+  /* Layout */
+  --max-width: 1280px;
+
+  /* Typography */
+  --font-display: 'Bricolage Grotesque', 'Bricolage Fallback', system-ui, -apple-system, sans-serif;
+  --font-body: 'Geist', 'Geist Fallback', system-ui, -apple-system, sans-serif;
+  --font-mono: 'Geist Mono', 'Space Mono', monospace;
+
+  --tracking-display: -0.03em;
+  --tracking-mono: 0.08em;
+  --leading-display: 0.98;
+}
+
+/* Section mode: VOID */
+[data-mode="void"] {
+  --bg-current: var(--color-void);
+  --bg-card: var(--color-surface);
+  --border-current: var(--color-hairline);
+  --text-current: var(--color-text);
+  --muted-current: var(--color-muted);
+  --accent-current: var(--color-lime);
+  --highlight-current: var(--color-pink);
+}
+
+/* Section mode: SURFACE */
+[data-mode="surface"] {
+  --bg-current: var(--color-surface);
+  --bg-card: var(--color-void);
+  --border-current: var(--color-hairline);
+  --text-current: var(--color-text);
+  --muted-current: var(--color-muted);
+  --accent-current: var(--color-lime);
+  --highlight-current: var(--color-pink);
+}
+
+/* Section mode: PAPER */
+[data-mode="paper"] {
+  --bg-current: #F4EFE6;
+  --bg-card: #FAF7F2;
+  --border-current: #D9D3C7;
+  --text-current: #09090B;
+  --muted-current: #5E5A52;
+  --accent-current: #09090B;
+  --highlight-current: #D4206B;
+}
+
+/* Section mode: LIME BLOCK */
+[data-mode="lime-block"] {
+  --bg-current: #C6FF3D;
+  --bg-card: #09090B;
+  --border-current: #09090B;
+  --text-current: #09090B;
+  --muted-current: #2b3014;
+  --accent-current: #09090B;
+  --highlight-current: #FF3D9A;
+}

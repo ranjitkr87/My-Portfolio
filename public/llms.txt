@@ -1,0 +1,25 @@
+# Ranjit Rajan — Webflow & Frontend Developer
+> Portfolio and professional specifications for Ranjit Rajan, co-founder of Cocaimo in Kochi, Kerala, India.
+
+## About
+Ranjit Rajan is a Webflow and frontend developer and co-founder of Cocaimo, a web development and digital marketing agency based in Kochi, Kerala, India (09°58'N 76°17'E). He works directly with clients on design, development, and SEO.
+
+## Core Capabilities
+- Webflow & Custom Websites (Figma-to-Webflow, Client-First system, custom script integrations)
+- Dynamic Content Population through CMS (Sanity CMS, Webflow Collections, multi-reference architectures)
+- Speed & Performance (Sub-second load times, Core Web Vitals 95+, minimal DOM, asset budgeting)
+- SEO-Ready Builds (Clean Schema.org markup, OpenGraph metadata, structured headings, JSON-LD)
+
+## Primary Toolkit
+Webflow, React, TypeScript, Sanity CMS, HTML/CSS/JS, Figma
+
+## Key Projects
+- Cocaimo.com: Agency website built in React and TypeScript with SEO structure and schema markup. URL: https://www.cocaimo.com
+- Kerala Travel Concierge: Luxury travel brand website with Sanity CMS for self-serve content pipelines and booking flows.
+- Aura Salon & Spa: High-conversion booking website with localized CMS, custom JavaScript calendars, and SMS automations.
+
+## Contact
+Email: ranjitkr87@gmail.com
+WhatsApp: +919895311062 (https://wa.me/919895311062)
+Website: https://www.ranjitkrajan.com
+Agency: https://www.cocaimo.com
