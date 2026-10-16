@@ -12,7 +12,7 @@ export interface Project {
   link: string;
   linkLabel: string;
   isExternal: boolean;
-  featuredMode: 'highlight-pink' | 'standard-surface';
+  featuredMode: "highlight-pink" | "standard-surface";
   image: {
     src: string;
     alt: string;
@@ -27,65 +27,107 @@ export interface Project {
 
 export const projects: Project[] = [
   {
-    slug: 'cocaimo',
-    number: '01/03',
-    title: 'www.cocaimo.com',
+    slug: "whispering-greens",
+    number: "01/05",
+    title: "www.whisperinggreens.com",
     description:
-      'Agency website built in React and TypeScript, with SEO structure, schema markup and full content. Engineered for ultra-fast conversion and client onboarding.',
-    tags: ['[REACT]', '[TYPESCRIPT]', '[SEO ARCHITECTURE]'],
-    link: 'https://www.cocaimo.com',
-    linkLabel: '[ VIEW PROJECT -> ]',
+      "A nature-inspired website where fluid interactions, organic visuals, and understated elegance come together to create a smooth, immersive digital experience.",
+    tags: ["WEBFLOW", "FIGMA", "SEO ARCHITECTURE"],
+    link: "https://www.whisperinggreens.com",
+    linkLabel: "VIEW PROJECT",
     isExternal: true,
-    featuredMode: 'highlight-pink',
+    featuredMode: "standard-surface",
     image: {
-      src: '/images/ranjit-hero.jpg',
-      alt: 'Cocaimo website architecture and digital marketing agency platform',
-      width: 1200,
-      height: 675,
+      src: "/images/whispering-greens.png",
+      alt: "Whispering Greens website architecture and digital experience for a luxury eco-resort in Bangalore, India",
+      width: 1878,
+      height: 866,
     },
   },
   {
-    slug: 'kerala-travel-concierge',
-    number: '02/03',
-    title: 'Kerala Travel Concierge',
+    slug: "iomovo",
+    number: "02/05",
+    title: "www.iomovo.com",
     description:
-      'Travel brand site with Sanity CMS so the owner edits content herself. Fast content pipelines and zero-friction international booking flows.',
-    tags: ['[WEBFLOW]', '[SANITY CMS]'],
-    link: '#cta',
-    linkLabel: '[ VIEW CASE STUDY -> ]',
-    isExternal: false,
-    featuredMode: 'standard-surface',
+      "Developed a scalable Webflow experience for ioMoVo a digital asset management platform, featuring multilingual localization, CMS-driven content, dynamic filtering, pagination, and responsive layouts to deliver seamless navigation across a content-rich SaaS website.",
+    tags: [
+      "WEBFLOW",
+      "FIGMA",
+      "CMS",
+      "FINSWEET",
+      "SEO ARCHITECTURE",
+      "LOCALIZATION",
+    ],
+    link: "https://www.iomovo.com",
+    linkLabel: "VIEW PROJECT",
+    isExternal: true,
+    featuredMode: "standard-surface",
     image: {
-      src: '/images/kerala-travel.jpg',
-      alt: 'Editorial web showcase of a luxury Kerala eco-resort tourism website with stark architectural framing.',
-      width: 960,
-      height: 540,
-      sources: {
-        avif: '/images/kerala-travel-960w.avif 960w, /images/kerala-travel-640w.avif 640w',
-        webp: '/images/kerala-travel-960w.webp 960w, /images/kerala-travel-640w.webp 640w',
-      },
+      src: "/images/iomovo.avif",
+      alt: "ioMoVo website architecture and digital asset management platform",
+      width: 1858,
+      height: 868,
     },
   },
   {
-    slug: 'aura-salon-spa',
-    number: '03/03',
-    title: 'Aura Salon & Spa',
+    slug: "jiitkak",
+    number: "03/05",
+    title: "www.jiitak.jp",
     description:
-      'High-conversion booking site with responsive localized CMS for Kochi flagship location. Custom JavaScript calendars and automated SMS confirmations.',
-    tags: ['[WEBFLOW]', '[CUSTOM JS]'],
-    link: '#cta',
-    linkLabel: '[ VIEW CASE STUDY -> ]',
-    isExternal: false,
-    featuredMode: 'standard-surface',
+      "Company website for JIITAK, a Japan-based product development and DX company. Built in Webflow from the Figma design, with a CMS-driven case-study library, a filterable blog and scroll animations.",
+    tags: [
+      "WEBFLOW",
+      "FIGMA",
+      "CMS",
+      "FINSWEET",
+      "SEO ARCHITECTURE",
+      "LOCALIZATION",
+    ],
+    link: "https://www.jiitak.jp",
+    linkLabel: "VIEW PROJECT",
+    isExternal: true,
+    featuredMode: "standard-surface",
     image: {
-      src: '/images/aura-salon.jpg',
-      alt: 'Minimalist high-fashion beauty salon digital experience interface layout in Kochi.',
-      width: 960,
-      height: 540,
-      sources: {
-        avif: '/images/aura-salon-960w.avif 960w, /images/aura-salon-640w.avif 640w',
-        webp: '/images/aura-salon-960w.webp 960w, /images/aura-salon-640w.webp 640w',
-      },
+      src: "/images/jiitak.avif",
+      alt: "JIITAK homepage hero with a large Japanese headline about turning today’s challenges into tomorrow’s value, and a consult button.",
+      width: 1847,
+      height: 865,
+    },
+  },
+  {
+    slug: "cocaimo",
+    number: "04/05",
+    title: "www.cocaimo.com",
+    description:
+      "Website for Cocaimo, the web development and digital marketing agency I co-founded in Kochi. Built in React and TypeScript with an SEO-first structure, schema markup and full copy across 8 service and information pages.",
+    tags: ["REACT", "TYPESCRIPT", "SEO ARCHITECTURE"],
+    link: "https://www.cocaimo.com",
+    linkLabel: "VIEW PROJECT]",
+    isExternal: true,
+    featuredMode: "standard-surface",
+    image: {
+      src: "/images/cocaimo.avif",
+      alt: "Cocaimo homepage hero with the headline",
+      width: 1643,
+      height: 868,
+    },
+  },
+  {
+    slug: "arbuza",
+    number: "05/05",
+    title: "www.arbuza.in",
+    description:
+      "Website for ARBUZA, a precision-nutrition practice combining systems biology with personalized clinical care. Built in Webflow from the client’s Figma design, with a refined premium look and a clear path to booking a discovery call.",
+    tags: ["WEBFLOW", "FIGMA", "CMS", "SEO ARCHITECTURE"],
+    link: "https://www.arbuza.in/",
+    linkLabel: "VIEW PROJECT",
+    isExternal: true,
+    featuredMode: "standard-surface",
+    image: {
+      src: "/images/arbuza.avif",
+      alt: "ARBUZA homepage hero with the headline “Systems Biology meets Precision Nutrition",
+      width: 1882,
+      height: 833,
     },
   },
 ];

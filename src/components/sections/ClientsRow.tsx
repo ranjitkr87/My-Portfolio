@@ -3,11 +3,14 @@ import { siteConfig } from "../../content/site.ts";
 
 export const ClientsRow: React.FC = () => {
   const clients = [
-    { name: "Kerala Travel Concierge", link: "#work" },
-    { name: "Aura Wellness", link: "#work" },
+    { name: "Arbuza", link: "www.arbuza.in", external: true },
+    { name: "Aixe Labs", link: "https://aixelabs.com/", external: true },
     { name: "Cocaimo Studio", link: "https://www.cocaimo.com", external: true },
-    { name: "Studio Malabar", link: "#cta" },
-    { name: "Kochi Tech Collective", link: "#cta" },
+    {
+      name: "Lumino Consultancy",
+      link: "https://luminoconsultancy.com/",
+      external: true,
+    },
   ];
 
   return (

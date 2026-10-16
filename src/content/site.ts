@@ -167,11 +167,5 @@ export const siteConfig: SiteConfig = {
     { label: "About", href: "#about" },
     { label: "Contact", href: "#cta" },
   ],
-  collaborators: [
-    "Kerala Travel Concierge",
-    "Aura Wellness",
-    "Cocaimo Studio",
-    "Studio Malabar",
-    "Kochi Tech Collective",
-  ],
+  collaborators: [],
 };

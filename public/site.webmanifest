@@ -1,27 +1,25 @@
 {
+  "id": "/",
   "name": "Ranjit Rajan — Webflow & Frontend Developer",
   "short_name": "Ranjit Rajan",
   "description": "Webflow & Frontend developer portfolio in Kochi, Kerala, India.",
+  "lang": "en-IN",
   "start_url": "/",
-  "display": "standalone",
+  "display": "browser",
   "background_color": "#09090B",
   "theme_color": "#09090B",
   "icons": [
     {
-      "src": "/icon-192.png",
-      "sizes": "192x192",
-      "type": "image/png"
+      "src": "/ranjit-rajan-fav-icon.jpg",
+      "sizes": "32x32",
+      "type": "image/jpeg",
+      "purpose": "any"
     },
     {
-      "src": "/icon-512.png",
-      "sizes": "512x512",
-      "type": "image/png"
-    },
-    {
-      "src": "/maskable-512.png",
-      "sizes": "512x512",
-      "type": "image/png",
-      "purpose": "maskable"
+      "src": "/ranjit-rajan-apple-icon.jpg",
+      "sizes": "256x256",
+      "type": "image/jpeg",
+      "purpose": "any"
     }
   ]
 }

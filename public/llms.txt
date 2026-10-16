@@ -1,25 +1,33 @@
 # Ranjit Rajan — Webflow & Frontend Developer
-> Portfolio and professional specifications for Ranjit Rajan, co-founder of Cocaimo in Kochi, Kerala, India.
 
-## About
-Ranjit Rajan is a Webflow and frontend developer and co-founder of Cocaimo, a web development and digital marketing agency based in Kochi, Kerala, India (09°58'N 76°17'E). He works directly with clients on design, development, and SEO.
+> Portfolio of Ranjit Rajan, a Webflow and frontend developer in Kochi, Kerala, India, and co-founder of Cocaimo, a web development and digital marketing agency. He works directly with clients on design, development and SEO.
 
-## Core Capabilities
-- Webflow & Custom Websites (Figma-to-Webflow, Client-First system, custom script integrations)
-- Dynamic Content Population through CMS (Sanity CMS, Webflow Collections, multi-reference architectures)
-- Speed & Performance (Sub-second load times, Core Web Vitals 95+, minimal DOM, asset budgeting)
-- SEO-Ready Builds (Clean Schema.org markup, OpenGraph metadata, structured headings, JSON-LD)
+Ranjit has 4 years of experience building websites in Webflow and frontend code for agencies and product companies. This site is a single page listing his services, selected projects and contact details.
 
-## Primary Toolkit
-Webflow, React, TypeScript, Sanity CMS, HTML/CSS/JS, Figma
+## Services
 
-## Key Projects
-- Cocaimo.com: Agency website built in React and TypeScript with SEO structure and schema markup. URL: https://www.cocaimo.com
-- Kerala Travel Concierge: Luxury travel brand website with Sanity CMS for self-serve content pipelines and booking flows.
-- Aura Salon & Spa: High-conversion booking website with localized CMS, custom JavaScript calendars, and SMS automations.
+- Webflow & Custom Websites: Figma-to-Webflow builds, CMS collections, custom code where needed
+- Speed & Performance: lean, fast-loading pages and image/asset optimisation
+- SEO-Ready Builds: semantic HTML, structured headings, meta tags and schema markup
+- UI/UX Design: layouts and interfaces designed for clarity and conversion
+
+## Toolkit
+
+Webflow, React, TypeScript, Sanity CMS, HTML/CSS/JavaScript, Figma
+
+## Selected Projects
+
+- [JIITAK](https://www.jiitak.co.jp/): Website for a Japan-based product development and DX company. Built in Webflow from a Figma design, with CMS-driven case studies and blog, content filters and animations.
+- [ARBUZA](https://www.arbuza.in/): Website for a precision-nutrition practice. Built in Webflow from the client's Figma design.
+- [Cocaimo](https://www.cocaimo.com/): Agency website built in React and TypeScript, with SEO structure and schema markup.
+- [Iomovo]([URL]): [ONE-LINE DESCRIPTION]
+- [Whispering Greens]([URL]): [ONE-LINE DESCRIPTION]
 
 ## Contact
-Email: ranjitkr87@gmail.com
-WhatsApp: +919895311062 (https://wa.me/919895311062)
-Website: https://www.ranjitkrajan.com
-Agency: https://www.cocaimo.com
+
+- Website: https://www.ranjitkrajan.com/
+- Email: [ROLE ADDRESS, e.g. hello@ranjitkrajan.com]
+
+## Optional
+
+- [Cocaimo agency site](https://www.cocaimo.com/): Web development and digital marketing agency in Kochi, co-founded by Ranjit Rajan

@@ -1,6 +1,5 @@
 import React from "react";
 import { siteConfig } from "../../content/site.ts";
-import { Picture } from "../ui/Picture.tsx";
 import { StatBlock } from "../cards/StatBlock.tsx";
 
 export const AboutSection: React.FC = () => {

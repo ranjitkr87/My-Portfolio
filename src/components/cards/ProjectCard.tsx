@@ -1,13 +1,12 @@
-import React from 'react';
-import type { Project } from '../../content/projects.ts';
-import { Picture } from '../ui/Picture.tsx';
+import React from "react";
+import type { Project } from "../../content/projects.ts";
 
 export interface ProjectCardProps {
   project: Project;
 }
 
 export const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
-  if (project.featuredMode === 'highlight-pink') {
+  if (project.featuredMode === "highlight-pink") {
     return (
       <article className="bg-[#FF3D9A] rounded-[12px] p-8 md:p-12 text-[#09090B] border border-[#FF3D9A] transition-colors duration-150">
         <div className="flex justify-between items-start mb-12 md:mb-16">
@@ -29,7 +28,7 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
           <div className="lg:col-span-8">
             <h3
               className="text-4xl sm:text-5xl md:text-7xl leading-none font-extrabold uppercase tracking-tight text-[#09090B] mb-4"
-              style={{ fontFamily: 'var(--font-display)' }}
+              style={{ fontFamily: "var(--font-display)" }}
             >
               {project.title}
             </h3>
@@ -40,8 +39,8 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
           <div className="lg:col-span-4 flex justify-start lg:justify-end">
             <a
               href={project.link}
-              target={project.isExternal ? '_blank' : undefined}
-              rel={project.isExternal ? 'noopener noreferrer' : undefined}
+              target={project.isExternal ? "_blank" : undefined}
+              rel={project.isExternal ? "noopener noreferrer" : undefined}
               className="rounded-full bg-[#09090B] text-[#F4EFE6] px-8 py-3.5 font-mono text-xs uppercase tracking-[0.08em] font-bold hover:bg-[#C6FF3D] hover:text-[#09090B] transition-colors duration-150 inline-flex items-center justify-center min-h-[48px]"
             >
               {project.linkLabel}
@@ -53,7 +52,8 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
   }
 
   // Standard surface card
-  const baseName = project.slug === 'kerala-travel-concierge' ? 'kerala-travel' : 'aura-salon';
+  const baseName =
+    project.slug === "kerala-travel-concierge" ? "kerala-travel" : "aura-salon";
 
   return (
     <article className="bg-[#131318] border border-[#26262E] hover:border-[#C6FF3D] rounded-[12px] p-6 sm:p-8 transition-colors duration-150 flex flex-col justify-between">
@@ -74,20 +74,15 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
           </span>
         </div>
         <div className="rounded-[16px] overflow-hidden aspect-video bg-[#09090B] border border-[#26262E] mb-6">
-          <Picture
-            baseName={baseName}
+          <img
+            src={project.image.src}
             alt={project.image.alt}
-            width={960}
-            height={540}
-            sizes="(max-width: 768px) 100vw, 50vw"
-            widths={[640, 960]}
-            priority={false}
-            aspectRatio="16/9"
+            className="w-full h-full object-cover"
           />
         </div>
         <h3
           className="text-2xl sm:text-3xl text-[#F4EFE6] uppercase font-bold mb-3 tracking-tight"
-          style={{ fontFamily: 'var(--font-display)' }}
+          style={{ fontFamily: "var(--font-display)" }}
         >
           {project.title}
         </h3>
