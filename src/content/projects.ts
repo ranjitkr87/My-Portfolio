@@ -102,7 +102,7 @@ export const projects: Project[] = [
       "Website for Cocaimo, the web development and digital marketing agency I co-founded in Kochi. Built in React and TypeScript with an SEO-first structure, schema markup and full copy across 8 service and information pages.",
     tags: ["REACT", "TYPESCRIPT", "SEO ARCHITECTURE"],
     link: "https://www.cocaimo.com",
-    linkLabel: "VIEW PROJECT]",
+    linkLabel: "VIEW PROJECT",
     isExternal: true,
     featuredMode: "standard-surface",
     image: {
