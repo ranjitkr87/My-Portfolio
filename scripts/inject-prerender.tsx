@@ -1,8 +1,8 @@
-import fs from 'node:fs';
-import path from 'node:path';
-import React from 'react';
-import { renderToString } from 'react-dom/server';
-import App from '../src/App.tsx';
+import fs from "node:fs";
+import path from "node:path";
+import React from "react";
+import { renderToString } from "react-dom/server";
+import App from "../src/App.tsx";
 
 function run() {
   const appHtml = renderToString(<App />);
@@ -37,7 +37,7 @@ function run() {
       property="og:description"
       content="Fast, responsive Webflow and frontend websites built with clean code and high craft by Ranjit Rajan, co-founder of Cocaimo in Kochi, Kerala, India."
     />
-    <meta property="og:image" content="https://www.ranjitkrajan.com/og-image.png" />
+    <meta property="og:image" content="https://www.ranjitkrajan.com/og-image-ranjit-rajan.png" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
     <meta property="og:image:type" content="image/png" />
@@ -50,13 +50,13 @@ function run() {
       name="twitter:description"
       content="Fast, responsive Webflow and frontend websites built with clean code and high craft by Ranjit Rajan, co-founder of Cocaimo in Kochi, Kerala, India."
     />
-    <meta name="twitter:image" content="https://www.ranjitkrajan.com/og-image.png" />
+    <meta name="twitter:image" content="https://www.ranjitkrajan.com/og-image-ranjit-rajan.png" />
     <meta name="twitter:image:alt" content="Ranjit Rajan — Webflow &amp; Frontend Developer in Kochi, Kerala" />
 
     <!-- Favicons & Web Manifest -->
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/ranjit-rajan-fav-icon.jpg" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/ranjit-rajan-apple-icon.png" />
     <link rel="manifest" href="/site.webmanifest" />
 
     <!-- Preload Self-Hosted Display and Body Fonts for Zero Layout Shift -->
@@ -91,8 +91,10 @@ function run() {
 </html>
 `;
 
-  fs.writeFileSync(path.resolve('./index.html'), html, 'utf8');
-  console.log('Successfully injected pre-rendered application HTML into index.html');
+  fs.writeFileSync(path.resolve("./index.html"), html, "utf8");
+  console.log(
+    "Successfully injected pre-rendered application HTML into index.html",
+  );
 }
 
 run();
