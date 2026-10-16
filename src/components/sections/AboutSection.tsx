@@ -8,7 +8,7 @@ export const AboutSection: React.FC = () => {
       id="about"
       aria-labelledby="about-heading"
       className="w-full max-w-7xl mx-auto px-4 sm:px-6 md:px-12 py-24 sm:py-32 reveal-section"
-      data-mode="void"
+      data-mode="paper"
     >
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
         {/* Left: Photo (4:5 ratio, 16px radius) */}

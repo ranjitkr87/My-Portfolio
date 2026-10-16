@@ -23,9 +23,9 @@ export const ClientsRow: React.FC = () => {
         <span className="font-mono text-xs text-[#A7A29A] uppercase tracking-[0.08em]">
           COLLABORATORS
         </span>
-        <span className="font-mono text-xs uppercase tracking-[0.08em] text-[#A7A29A]">
+        {/* <span className="font-mono text-xs uppercase tracking-[0.08em] text-[#A7A29A]">
           COMMERCIAL PARTNERS · CLIENT MARQUEE
-        </span>
+        </span> */}
       </div>
 
       {/* Hairline-bordered Marquee Track */}

@@ -49,9 +49,9 @@ export const IntegrationsSection: React.FC = () => {
   return (
     <section
       id="integrations"
-      aria-labelledby="integrations-heading"
-      className="w-full bg-[#09090B]sm:py-32 border-t border-[#26262E] reveal-section"
-      data-mode="void"
+      aria-labelledby="process-heading"
+      className="w-full bg-[#131318] py-24 sm:py-32 border-y border-[#26262E] reveal-section"
+      data-mode="surface"
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-12">
         {/* Section Header */}
@@ -135,7 +135,7 @@ export const IntegrationsSection: React.FC = () => {
             href="#cta"
             className="shrink-0 rounded-full bg-[#09090B] border border-[#26262E] hover:border-[#C6FF3D] px-6 py-3 font-mono text-xs uppercase tracking-[0.08em] text-[#F4EFE6] hover:bg-[#C6FF3D] hover:text-[#09090B] transition-colors"
           >
-            [ DISCUSS INTEGRATION ]
+            DISCUSS INTEGRATION
           </a>
         </div>
       </div>
