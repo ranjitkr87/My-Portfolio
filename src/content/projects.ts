@@ -5,7 +5,6 @@
 
 export interface Project {
   slug: string;
-  number: string;
   title: string;
   description: string;
   tags: string[];
@@ -28,7 +27,6 @@ export interface Project {
 export const projects: Project[] = [
   {
     slug: "whispering-greens",
-    number: "01/05",
     title: "www.whisperinggreens.com",
     description:
       "A nature-inspired website where fluid interactions, organic visuals, and understated elegance come together to create a smooth, immersive digital experience.",
@@ -46,7 +44,6 @@ export const projects: Project[] = [
   },
   {
     slug: "iomovo",
-    number: "02/05",
     title: "www.iomovo.com",
     description:
       "Developed a scalable Webflow experience for ioMoVo a digital asset management platform, featuring multilingual localization, CMS-driven content, dynamic filtering, pagination, and responsive layouts to deliver seamless navigation across a content-rich SaaS website.",
@@ -71,7 +68,6 @@ export const projects: Project[] = [
   },
   {
     slug: "jiitkak",
-    number: "03/05",
     title: "www.jiitak.jp",
     description:
       "Company website for JIITAK, a Japan-based product development and DX company. Built in Webflow from the Figma design, with a CMS-driven case-study library, a filterable blog and scroll animations.",
@@ -96,7 +92,6 @@ export const projects: Project[] = [
   },
   {
     slug: "cocaimo",
-    number: "04/05",
     title: "www.cocaimo.com",
     description:
       "Website for Cocaimo, the web development and digital marketing agency I co-founded in Kochi. Built in React and TypeScript with an SEO-first structure, schema markup and full copy across 8 service and information pages.",
@@ -114,7 +109,6 @@ export const projects: Project[] = [
   },
   {
     slug: "arbuza",
-    number: "05/05",
     title: "www.arbuza.in",
     description:
       "Website for ARBUZA, a precision-nutrition practice combining systems biology with personalized clinical care. Built in Webflow from the client’s Figma design, with a refined premium look and a clear path to booking a discovery call.",

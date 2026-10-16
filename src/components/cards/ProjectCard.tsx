@@ -20,9 +20,9 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
               </span>
             ))}
           </div>
-          <span className="font-mono text-sm md:text-base font-bold tracking-widest text-[#09090B]">
+          {/* <span className="font-mono text-sm md:text-base font-bold tracking-widest text-[#09090B]">
             {project.number}
-          </span>
+          </span> */}
         </div>
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-end">
           <div className="lg:col-span-8">
@@ -70,7 +70,7 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
             ))}
           </div>
           <span className="font-mono text-xs sm:text-sm text-[#A7A29A] uppercase tracking-[0.08em]">
-            {project.number}
+            {/* {project.number} */}
           </span>
         </div>
         <div className="rounded-[16px] overflow-hidden aspect-video bg-[#09090B] border border-[#26262E] mb-6">
