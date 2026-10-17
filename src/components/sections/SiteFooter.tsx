@@ -28,7 +28,7 @@ export const SiteFooter: React.FC = () => {
               href="https://www.cocaimo.com"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-[#C6FF3D] hover:underline"
+              className="text-[#C6FF3D] hover:underline brand-script"
             >
               WWW.COCAIMO.COM
             </a>

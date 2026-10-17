@@ -1,3 +1,17 @@
 @import "tailwindcss";
 @import "./styles/tokens.css";
 @import "./styles/base.css";
+@import "@fontsource-variable/caveat/wght.css";
+
+:root {
+  --font-brand-script: "Caveat Variable", "Segoe Print", cursive;
+}
+
+.brand-script {
+  font-family: var(--font-brand-script);
+  font-weight: 700;
+  font-size: 1.25em; /* Caveat looks small beside Bricolage Grotesque and Geist */
+  line-height: 1;
+  letter-spacing: 0;
+  text-transform: none; /* stays "Cocaimo" even inside uppercase headings */
+}

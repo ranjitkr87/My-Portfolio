@@ -5,7 +5,7 @@
 
 export interface SocialLink {
   label: string;
-  platform: "linkedin" | "github" | "whatsapp";
+  platform: "linkedin" | "github";
   url: string;
 }
 
@@ -154,11 +154,6 @@ export const siteConfig: SiteConfig = {
       label: "GitHub",
       platform: "github",
       url: "https://github.com/ranjitkr87",
-    },
-    {
-      label: "WhatsApp",
-      platform: "whatsapp",
-      url: "https://wa.me/919895311062",
     },
   ],
   navLinks: [

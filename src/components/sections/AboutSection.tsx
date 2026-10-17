@@ -44,14 +44,14 @@ export const AboutSection: React.FC = () => {
             {siteConfig.about.heading}
           </h2>
           <p className="text-base sm:text-lg text-[#F4EFE6] mb-6 leading-relaxed">
-            I'm Ranjit, a Webflow and frontend developer and co-founder of{" "}
+            I'm Ranjit Rajan, a Webflow and frontend developer and co-founder of{" "}
             <a
               href="https://www.cocaimo.com"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-[#C6FF3D] underline underline-offset-4 hover:text-[#FF3D9A] transition-colors font-medium"
+              className="text-[#C6FF3D] underline underline-offset-4 brand-script hover:text-[#FF3D9A] font transition-colors font-medium"
             >
-              Cocaimo
+              COCAIMO
             </a>
             , a web development and digital marketing agency in Kochi. I work
             directly with clients on design, development and SEO.

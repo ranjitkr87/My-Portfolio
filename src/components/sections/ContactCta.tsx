@@ -108,12 +108,12 @@ export const ContactCta: React.FC = () => {
                 email client or WhatsApp.
               </p>
 
-              <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-2">
+              {/* <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-2">
                 <a
                   href={mailtoUrl}
                   className="w-full sm:w-auto rounded-full bg-[#131318] border border-[#26262E] hover:border-[#C6FF3D] px-6 py-3 font-mono text-xs uppercase tracking-[0.08em] text-[#F4EFE6] transition-colors"
                 >
-                  [ Open in Email Client ]
+                  Open in Email Client
                 </a>
                 <a
                   href={whatsappUrl}
@@ -121,9 +121,9 @@ export const ContactCta: React.FC = () => {
                   rel="noopener noreferrer"
                   className="w-full sm:w-auto rounded-full bg-[#C6FF3D] px-6 py-3 font-mono text-xs font-bold uppercase tracking-[0.08em] text-[#09090B] hover:bg-[#FF3D9A] hover:text-[#F4EFE6] transition-colors"
                 >
-                  [ Send on WhatsApp ]
+                  Send on WhatsApp
                 </a>
-              </div>
+              </div> */}
 
               <div className="pt-4 border-t border-[#26262E]">
                 <button
@@ -140,7 +140,7 @@ export const ContactCta: React.FC = () => {
                   }}
                   className="font-mono text-xs uppercase text-[#A7A29A] hover:text-[#C6FF3D] underline tracking-[0.08em]"
                 >
-                  [ Submit Another Enquiry ]
+                  Submit Another Enquiry
                 </button>
               </div>
             </div>
