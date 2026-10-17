@@ -101,7 +101,7 @@ export const siteConfig: SiteConfig = {
   },
   about: {
     badge: "ABOUT",
-    heading: "Code with craft, delivered from Kochi.",
+    heading: "The developer behind the work",
     paragraph1:
       "I'm Ranjit Rajan, a Webflow and frontend developer and co-founder of Cocaimo, a web development and digital marketing agency in Kochi. I work directly with clients on design, development and SEO.",
     paragraph2:

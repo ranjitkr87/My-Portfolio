@@ -112,8 +112,8 @@ export const IntegrationsSection: React.FC = () => {
         </div>
 
         {/* Custom API & Micro-services Banner */}
-        <div className="bg-[#131318] border border-[#26262E] rounded-[16px] p-6 sm:p-8 flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
-          <div>
+        <div className="bg-[#131318] flex justify-self-center">
+          {/* <div>
             <span className="font-mono text-xs text-[#C6FF3D] uppercase tracking-[0.08em] block mb-1">
               CUSTOM PROPRIETARY APIS &amp; SERVERLESS ENDPOINTS
             </span>
@@ -129,7 +129,7 @@ export const IntegrationsSection: React.FC = () => {
               AWS Lambda to handle cryptographic signatures, rate limiting, and
               complex SQL/PostgreSQL syncs.
             </p>
-          </div>
+          </div> */}
 
           <a
             href="#cta"
