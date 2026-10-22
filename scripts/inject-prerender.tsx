@@ -63,7 +63,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <!-- Favicons & Web Manifest -->
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="icon" type="image/jpg" sizes="32x32" href="/ranjit-rajan-fav-icon.jpg" />
-    <link rel="apple-touch-icon" sizes="180x180" href="/ranjit-rajan-apple-icon.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/ranjit-rajan-apple-icon.jpg" />
     <link rel="manifest" href="/site.webmanifest" />
 
     <!-- Preload Self-Hosted Display and Body Fonts for Zero Layout Shift -->
@@ -82,16 +82,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       crossorigin="anonymous"
     />
 
-    <!-- Preload Hero Image Asset -->
-    <link
-      rel="preload"
-      as="image"
-      href="/images/ranjit-hero-720w.webp"
-      type="image/webp"
-      fetchpriority="high"
-    />
+    
   </head>
   <body class="selection:bg-[#C6FF3D] selection:text-[#09090B]">
+  <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PZXSHH55"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
     <div id="root">${appHtml}</div>
     <script type="module" src="/src/main.tsx"></script>
   </body>
