@@ -1,7 +1,6 @@
 import React from "react";
 import { siteConfig } from "../../content/site.ts";
 import { Button } from "../ui/Button.tsx";
-import { Picture } from "../ui/Picture.tsx";
 
 export const Hero: React.FC = () => {
   return (
@@ -74,7 +73,7 @@ export const Hero: React.FC = () => {
           {/* Portrait Container */}
           <div className="relative bg-[#131318] border border-[#26262E] rounded-[16px] overflow-hidden aspect-[4/5] flex flex-col justify-end p-4 sm:p-6">
             <img
-              src="/images/ranjit-hero.jpg"
+              src="/images/ranjit-hero.avif"
               alt="Ranjit Rajan working inside his minimalist engineering studio in Kochi, Kerala"
               width={960}
               height={1200}

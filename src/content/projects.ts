@@ -36,7 +36,7 @@ export const projects: Project[] = [
     isExternal: true,
     featuredMode: "standard-surface",
     image: {
-      src: "/images/whispering-greens.png",
+      src: "/images/whispering-greens.avif",
       alt: "Whispering Greens website architecture and digital experience for a luxury eco-resort in Bangalore, India",
       width: 1878,
       height: 866,

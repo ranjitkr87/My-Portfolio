@@ -55,7 +55,7 @@ function run() {
 
     <!-- Favicons & Web Manifest -->
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <link rel="icon" type="image/png" sizes="32x32" href="/ranjit-rajan-fav-icon.jpg" />
+    <link rel="icon" type="image/jpg" sizes="32x32" href="/ranjit-rajan-fav-icon.jpg" />
     <link rel="apple-touch-icon" sizes="180x180" href="/ranjit-rajan-apple-icon.png" />
     <link rel="manifest" href="/site.webmanifest" />
 

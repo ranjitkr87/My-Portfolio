@@ -15,7 +15,7 @@ export const AboutSection: React.FC = () => {
         <div className="lg:col-span-5">
           <div className="relative bg-[#131318] border border-[#26262E] rounded-[16px] overflow-hidden aspect-[4/5]">
             <img
-              src="/images/ranjit-about.jpg"
+              src="/images/ranjit-about.avif"
               alt="Ranjit Rajan working inside his minimalist engineering studio in Kochi, Kerala"
               width={960}
               height={1200}

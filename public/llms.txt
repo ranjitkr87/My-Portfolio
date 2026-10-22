@@ -2,7 +2,7 @@
 
 > Portfolio of Ranjit Rajan, a Webflow and frontend developer in Kochi, Kerala, India, and co-founder of Cocaimo, a web development and digital marketing agency. He works directly with clients on design, development and SEO.
 
-Ranjit has 4 years of experience building websites in Webflow and frontend code for agencies and product companies. This site is a single page listing his services, selected projects and contact details.
+Ranjit Rajan has 4 years of experience building websites in Webflow and frontend code for agencies and product companies. This site is a single page listing his services, selected projects and contact details.
 
 ## Services
 
@@ -17,16 +17,16 @@ Webflow, React, TypeScript, Sanity CMS, HTML/CSS/JavaScript, Figma
 
 ## Selected Projects
 
-- [JIITAK](https://www.jiitak.co.jp/): Website for a Japan-based product development and DX company. Built in Webflow from a Figma design, with CMS-driven case studies and blog, content filters and animations.
+- [Whispering Greens](https://www.whisperinggreens.com/): A nature-inspired website where fluid interactions, organic visuals, and understated elegance come together to create a smooth, immersive digital experience.
 - [ARBUZA](https://www.arbuza.in/): Website for a precision-nutrition practice. Built in Webflow from the client's Figma design.
 - [Cocaimo](https://www.cocaimo.com/): Agency website built in React and TypeScript, with SEO structure and schema markup.
-- [Iomovo]([URL]): [ONE-LINE DESCRIPTION]
-- [Whispering Greens]([URL]): [ONE-LINE DESCRIPTION]
+- [Iomovo](https://www.iomovo.io/): Developed a scalable Webflow experience for ioMoVo a digital asset management platform, featuring multilingual localization, CMS-driven content, dynamic filtering, pagination, and responsive layouts to deliver seamless navigation across a content-rich SaaS website.
+- [JIITAK](https://www.jiitak.co.jp/): Website for a Japan-based product development and DX company. Built in Webflow from a Figma design, with CMS-driven case studies and blog, content filters and animations.
 
 ## Contact
 
 - Website: https://www.ranjitkrajan.com/
-- Email: [ROLE ADDRESS, e.g. hello@ranjitkrajan.com]
+- Email: ranjitkr87@gmail.com
 
 ## Optional
 
