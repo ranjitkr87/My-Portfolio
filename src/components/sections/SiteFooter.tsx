@@ -22,7 +22,7 @@ export const SiteFooter: React.FC = () => {
             © 2026 RANJIT RAJAN . ENGINEERED FOR HIGH-CRAFT WEBFLOW &amp;
             FRONTEND.
           </p>
-          <div className="font-mono text-xs uppercase tracking-[0.08em] text-[#F4EFE6]">
+          <div className=" font-mono text-xs uppercase tracking-[0.08em] text-[#F4EFE6 hidden ]">
             CO-FOUNDER AT{" "}
             <a
               href="https://www.cocaimo.com"
